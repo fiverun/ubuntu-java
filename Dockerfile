@@ -1,6 +1,6 @@
 FROM ubuntu:14.04
 
-MAINTAINER Ivan Suhinin <suhinini@gmail.com>
+MAINTAINER Ivan Suhinin <ivan@fiverun.com>
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get -y update && apt-get -y install \
    && apt-get -y upgrade && apt-get -y install ntp software-properties-common \
@@ -10,3 +10,4 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get -y update && apt-get -y install \
    && apt-get -y update \
    && apt-get -y install oracle-java8-installer \
    && apt-get install -y oracle-java8-set-default
+   && apt-get install -y wget
