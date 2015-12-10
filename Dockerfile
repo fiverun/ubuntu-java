@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:14.04
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get -y update && apt-get -y install \
    && apt-get -y upgrade && apt-get -y install ntp software-properties-common \
