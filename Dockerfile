@@ -9,5 +9,5 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get -y update && apt-get -y install \
    && add-apt-repository -y ppa:webupd8team/java \
    && apt-get -y update \
    && apt-get -y install oracle-java8-installer \
-   && apt-get install -y oracle-java8-set-default
+   && apt-get install -y oracle-java8-set-default \
    && apt-get install -y wget
