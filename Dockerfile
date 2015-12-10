@@ -1,5 +1,7 @@
 FROM ubuntu:14.04
 
+MAINTAINER Ivan Suhinin <suhinini@gmail.com>
+
 RUN DEBIAN_FRONTEND=noninteractive apt-get -y update && apt-get -y install \
    && apt-get -y upgrade && apt-get -y install ntp software-properties-common \
    && echo debconf shared/accepted-oracle-license-v1-1 select true | debconf-set-selections \
