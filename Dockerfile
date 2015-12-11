@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM phusion/baseimage:0.9.17
 
 MAINTAINER Ivan Suhinin <ivan@fiverun.com>
 
